@@ -18,7 +18,7 @@ $tester->run_tests();
     sub new {
         my ($class,$configfile) = @_;
         Bio::KBase::kbaseenv::create_context_from_client_config({
-        	filename => "/Users/chenry/.kbase_config"
+        	filename => $configfile
         });
         my $c = Bio::KBase::utilities::read_config({
         	filename => $configfile,
