@@ -427,11 +427,11 @@ sub runFBA {
 			system("cd ".$self->jobPath().";tar -czf ".Bio::KBase::utilities::conf("ModelSEED","fbajobcache")."/".$self->jobID().".tgz ".$self->jobID());
 		}
 	}
-	if ($self->jobDirectory() =~ m/\/fbajobs\/.+/) {
-		if (!defined($self->parameters()->{nodelete}) || $self->parameters()->{nodelete} == 0) {
-			system("rm -rf ".$self->jobDirectory());
-		}
-	}
+	#if ($self->jobDirectory() =~ m/\/fbajobs\/.+/) {
+	#	if (!defined($self->parameters()->{nodelete}) || $self->parameters()->{nodelete} == 0) {
+	#		system("rm -rf ".$self->jobDirectory());
+	#	}
+	#}
 	return $self->objectiveValue();
 }
 
