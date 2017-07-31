@@ -116,10 +116,10 @@ $tester->run_tests();
 		my($self) = @_;
 		
 		#my $wsname = "chenry:1454960620516";
-		my $wsname = "mikaelacashman:narrative_1500996689101" #testing_fba_tools (production)
-		my $fbamodel = "EC.CDG.GF.FBAModel"
-		my $media = "CDG.media"
-		my $outputid = "Mika_test_out"	
+		my $wsname = "mikaelacashman:narrative_1500996689101"; #testing_fba_tools (production)
+		my $fbamodel = "EC.CDG.GF.FBAModel";
+		my $media = "CDG.media";
+		my $outputid = "Mika_test_out";	
 	
 		my $output = $self->test_harness("run_flux_balance_analysis",{
 	        "fbamodel_id"=> $fbamodel,
