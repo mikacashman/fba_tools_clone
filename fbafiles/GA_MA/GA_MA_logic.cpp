@@ -22,9 +22,11 @@
 #include <sys/time.h>
 using namespace std;
 
+const int NUMGENES=4;
+
 struct chrom
 {
-        int genes[4];//6 integer array for genes
+        int genes[NUMGENES];//6 integer array for genes
 		     //This will need to be modified for mixed type genes
         float fitness;  //fitness = objective value
 };
@@ -39,23 +41,30 @@ struct fitness
 
 //Globals
 int SEED=100;
-float MUTATIONRATE=.1;//.03
-int SIZE=16;//32
-chrom population[8];//16
-int NUMGENES=4;
+//mutation rate seems high
+float MUTATIONRATE=1.2;//.03
+const int SIZE=8;//32
+chrom population[SIZE];//16
+
 fitness Fit; 
-chrom initialPop[16];//32
+chrom initialPop[SIZE];//32
 bool FAILED=false;
 int MAXRUNS=2;//increasing number doesn't change pop
 float randNum;
-string iname = "/kb/module/work/fbafiles/GA_MA/log.txt";
+//string iname = "/kb/module/work/fbafiles/GA_MA/log.txt";
+string iname = "/kb/module/work/fbafiles/GA_MA/MFAOutput/RawData/RawSolutions.txt";
 ifstream inFile;
 float ov;
 string replacement;
 string replace_call;
 string call;
 string temp;
-int crossPT=3;
+int crossPT=2;
+int pos;
+string R1 = "100|100|100|0|100|100|0|0|0|100|100|100|.* -100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100 e|e|e|e|e|e|e|e|e|e|e|e|c|c|c|c 1|1|1|1|1|1|1|1|0.001|1|1|1|0.001|0.001|0.001|0.00    1";
+string R2 = "100|100|100|0|100|100|0|0|0|100|100|100|";
+string R3 = "   -100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100|-100 e|e|e|e|e|e|e|e|e|e|e|e|c|c|c|c 1|1|1|1|1|1|1|1|0.001|1|1|1|0.001|0.001|0.001|0.001";
+
 
 //function globals
 long long numMutated=0;//Mutation
@@ -63,10 +72,12 @@ long long numTotal=0;//Mutation
 chrom tempC, tempC2;//Crossover
 
 //Values to vary
-int cpd9[10] = {0,1,5,10,20,30,40,50,100,1000};
-int cpd11[10] = {0,1,5,10,20,30,40,50,100,1000};
-int cpd29[10] = {0,1,5,10,20,30,40,50,100,1000};
-int cpd84[10] = {0,1,5,10,20,30,40,50,100,1000};
+int minFlux_range[2] = {0,1};
+int *cpd9; 
+int *cpd29; 
+int *cpd84; 
+int *cpd11; 
+
 
 //functions
 void GenInitialPop();
@@ -77,6 +88,7 @@ void GeneticAlgorithm();
 float getOV();
 void CrossOver2();
 void Mutation();
+void deleteFiles();
 
 int main(int argc, char* argv[])
 {
@@ -84,6 +96,28 @@ int main(int argc, char* argv[])
 
 	//set random seed
 	srand (time(NULL));
+
+	//intialize globals (need to remove these later)
+	cpd9=new int[102]; 
+	cpd29=new int[102]; 
+	cpd84=new int[102]; 
+	cpd11=new int[102]; 
+
+
+	for (int i=0; i< 101; i++){
+	   cpd9[i]=i;
+	   cpd29[i]=i;
+	   cpd84[i]=i;
+	   cpd11[i]=i;
+	}
+
+
+	  cpd9[101]=1000;
+	  cpd29[101]=1000;
+	  cpd84[101]=1000;
+	  cpd11[101]=1000;
+
+
 
 	//generate initial population//////////////
         GenInitialPop();
@@ -96,7 +130,6 @@ int main(int argc, char* argv[])
 	cout << endl << endl;	
 
         Sort(initialPop);
-        SIZE=8;//16
         for(int i=0; i<SIZE ;i++)
                 population[i]=initialPop[i];
 
@@ -122,6 +155,11 @@ int main(int argc, char* argv[])
 	}
 
 	cout << "Done" << endl;
+        delete cpd9;
+        delete cpd29;
+        delete cpd84;
+        delete cpd11;
+
 	return 0;
 }
 
@@ -130,11 +168,10 @@ void GenInitialPop()
         //for all chroms
         for (int i=0; i<SIZE; i++)
         {
-                //next 5 that range from 0-10
-                initialPop[i].genes[0]=cpd9[rand()%10];
-                initialPop[i].genes[1]=cpd29[rand()%10];
-                initialPop[i].genes[2]=cpd84[rand()%10];
-                initialPop[i].genes[3]=cpd11[rand()%10];
+                initialPop[i].genes[0]=cpd9[rand()%102];
+                initialPop[i].genes[1]=cpd29[rand()%102];
+                initialPop[i].genes[2]=cpd84[rand()%102];
+                initialPop[i].genes[3]=cpd11[rand()%102];
         }
         return;
 }
@@ -167,7 +204,7 @@ void GeneticAlgorithm()
 	
 	//test print with new children
  	cout << "--- New Population ---" << endl;
-	cout << setw(5) << "cpd9" << setw(5) << "cpd29" << setw(5) << "cpd84" << setw(5) << "cpd11" << "fitness" << endl;
+	cout << setw(5) << "cpd9" << setw(5) << "cpd29" << setw(5) << "cpd84" << setw(5) << "cpd11" << setw(5) << "fitness" << endl;
 	for (int i=0; i<SIZE; i++)
         	PrintChrom(population[i]);
  	cout << endl << endl;
@@ -187,19 +224,20 @@ void getFitness(chrom pop[])
 
 	for (int i=0; i<SIZE; i++)
 	{
-		//Alter the files
-		replacement = "C:" + to_string(pop[i].genes[1]) +
-				",N:" + to_string(pop[i].genes[2]) +
-				",O:" + to_string(pop[i].genes[3]) + 
-				",P:" + to_string(pop[i].genes[4]) + 
-				",S:" + to_string(pop[i].genes[5]);
+		//Alter SpecializedParmeter.txt
+		replacement = "cpd00009_c0[c]:-100:" + to_string(pop[i].genes[0]) + 
+				";cpd00029_c0[c]:-100:" + to_string(pop[i].genes[1]) + 
+				";cpd00084_c0[c]:-100:" + to_string(pop[i].genes[2]) + 
+				";cpd00011_c0[c]:-100:" + to_string(pop[i].genes[3]) + ";";
 		//cout << replacement << endl;
-		replace_call = "sed -i 's/uptake limits|.*|Specialized parameters/uptake limits|" + replacement + "|Specialized parameters/g' '/kb/module/work/fbafiles/GA_MA/SpecializedParameters.txt'";
+		replace_call = "sed -i 's/exchange species|.*|Specialized parameters/exchange species|" + replacement + 
+				"cpd11416_c0[c]:-10000:0|Specialized parameters/g' '/kb/module/work/fbafiles/GA_MA/SpecializedParameters.txt'";
 		system(replace_call.c_str());
 
-		replacement = to_string(pop[i].genes[0]);
+		//Alter media.tbl
+		replacement = to_string(pop[i].genes[0]) + "|" + to_string(pop[i].genes[1]) + "|" + to_string(pop[i].genes[2]) + "|" + to_string(pop[i].genes[3]);
 		//cout << replacement << endl;  
-		replace_call = "sed -i 's/flux minimization|.*|Specialized parameters/flux minimization|" + replacement + "|Specialized parameters/g' '/kb/module/work/fbafiles/GA_MA/SpecializedParameters.txt'";
+		replace_call = "sed -i 's/" + R1 + "/" + R2 + replacement + R3 + "/g' '/kb/module/work/fbafiles/GA_MA/media.tbl'";
 		system(replace_call.c_str());
 
 		//Call the MFAToolkit (aka FBA)
@@ -209,6 +247,7 @@ void getFitness(chrom pop[])
 	}
 }
 
+/*
 float getOV()
 {
         inFile.open(iname);
@@ -220,7 +259,7 @@ float getOV()
 	//cout << ov << endl;
         return ov;
 };
-
+*/
 void Sort(chrom pop[])
 //sorts chromosomes from best(lowest) to worse(highest) fitness using bubble sort
 //yeah this is terrible I know
@@ -251,8 +290,10 @@ void CrossOver2()
 	//This needs to be made more fexible
 
         //if (CROSSOVERRANGE)
-        //        crossPT=(rand()%((MAX+1)-MIN))+MIN;
-
+  // need to change the six to a constant
+  //need to fix this later - myra
+  crossPT=((rand()%3)+2); //choosed one of a few spots
+      
         for (int j=0; j<crossPT ;j++)
         {
                 tempC.genes[j]=population[0].genes[j];
@@ -295,15 +336,43 @@ void Mutation()
                 {
                         numTotal++;
                         randNum=(rand() % 100)+1;
-                        if(randNum<(MUTATIONRATE*100))
+                        if(randNum<=(MUTATIONRATE*100))
                         {//mutate
                                 numMutated++;
-				if (j==0)
-					population[i].genes[j]=minFlux_range[rand()%2]; //mutate bool
-				else
-					population[i].genes[j]=maxC_range[rand()%10];//mutate between 0-10
+				population[i].genes[j]=cpd9[rand()%102];//mutate between 0-10
                         }
                 }
         }
+
 }
 
+void deleteFiles()
+{
+        remove("/kb/module/work/fbafiles/GA_MA/MFAOutput/CombinationKO.txt");
+        remove("/kb/module/work/fbafiles/GA_MA/MFAOutput/SolutionCompoundData.txt");
+        remove("/kb/module/work/fbafiles/GA_MA/MFAOutput/TightBoundsCompoundData.txt");
+        remove("/kb/module/work/fbafiles/GA_MA/MFAOutput/TightBoundsReactionData.txt");
+        remove("/kb/module/work/fbafiles/GA_MA/MFAOutput/RawData/RawSolutions.txt");
+        remove("/kb/module/work/fbafiles/GA_MA/MFAOutput/RawTightBounds0.txt");
+}
+
+float getOV()
+{
+        inFile.open(iname);
+        if (!inFile)
+        {   
+                //cout << "Output File not found" << endl;
+                ov = 0;
+        }   
+        else
+        {   
+                getline(inFile,temp);
+                getline(inFile,temp);
+                pos = temp.rfind(";");
+                ov = stof(temp.substr(pos+1,temp.length()));
+                deleteFiles();
+        }   
+        cout << "  OV=" << ov << endl;
+        inFile.close();
+        return ov; 
+};
