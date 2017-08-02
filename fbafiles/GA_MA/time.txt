@@ -1,0 +1,46 @@
+millisecs before fba:  43
+43
+millisecs before fba:  70
+5
+millisecs before fba:  43
+5
+millisecs before fba:  41
+5
+millisecs before fba:  61
+5
+millisecs before fba:  38
+5
+millisecs before fba:  42
+6
+millisecs before fba:  51
+6
+millisecs before fba:  39
+5
+millisecs before fba:  73
+5
+millisecs before fba:  51
+5
+millisecs before fba:  44
+5
+millisecs before fba:  51
+41
+millisecs before fba:  219
+40
+millisecs before fba:  197
+40
+millisecs before fba:  99
+39
+millisecs before fba:  64
+42
+millisecs before fba:  126
+41
+millisecs before fba:  119
+41
+millisecs before fba:  71
+40
+millisecs before fba:  119
+41
+millisecs before fba:  156
+43
+millisecs before fba:  35
+40

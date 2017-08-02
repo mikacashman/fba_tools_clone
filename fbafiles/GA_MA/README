@@ -1,0 +1,15 @@
+######## SET UP
+Move this directory into
+/test_local/workdir
+########
+
+GA_logic.cpp
+	A protopype of a Genetic algorithm
+GAdriver.cpp
+	Loops over multiple runs of FBA directly
+	through the MFAToolkit
+runMFAToolkitGA.sh
+	Runs MFAToolkit from inside docker
+	container (run_bash.sh) through 
+	work/fbafiles/GA
+
