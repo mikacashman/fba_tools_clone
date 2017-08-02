@@ -1,4 +1,4 @@
-exchange species|cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:8;cpd00084_c0[c]:-100:40;cpd00011_c0[c]:-100:89;cpd11416_c0[c]:-10000:0|Specialized parameters
+exchange species|cpd00009_c0[c]:-100:8;cpd00029_c0[c]:-100:1;cpd00084_c0[c]:-100:7;cpd00011_c0[c]:-100:0;cpd11416_c0[c]:-10000:0|Specialized parameters
 determine minimal required media|0|Specialized parameters
 perl directory|/usr/bin/perl|Specialized parameters
 use database fields|1|Specialized parameters

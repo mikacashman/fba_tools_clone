@@ -1,46 +1,2240 @@
-millisecs before fba:  43
-43
-millisecs before fba:  70
+millisecs before fba:  37
+6
+millisecs before fba:  73
+35
+millisecs before fba:  37
+32
+millisecs before fba:  34
+32
+millisecs before fba:  35
+31
+millisecs before fba:  32
+31
+millisecs before fba:  32
+30
+millisecs before fba:  42
+32
+millisecs before fba:  32
+31
+millisecs before fba:  32
+4
+millisecs before fba:  35
+32
+millisecs before fba:  32
+32
+millisecs before fba:  34
 5
-millisecs before fba:  43
+millisecs before fba:  34
+32
+millisecs before fba:  32
+31
+millisecs before fba:  32
+34
+millisecs before fba:  33
+32
+millisecs before fba:  33
+32
+millisecs before fba:  30
+4
+millisecs before fba:  36
 5
+millisecs before fba:  34
+5
+millisecs before fba:  36
+37
+millisecs before fba:  8554
+44
+millisecs before fba:  35
+33
+millisecs before fba:  38
+35
+millisecs before fba:  35
+5
+millisecs before fba:  40
+5
+millisecs before fba:  35
+34
+millisecs before fba:  36
+35
+millisecs before fba:  34
+33
 millisecs before fba:  41
+33
+millisecs before fba:  43
+34
+millisecs before fba:  40
+4
+millisecs before fba:  48
+4
+millisecs before fba:  36
+4
+millisecs before fba:  35
+4
+millisecs before fba:  38
+33
+millisecs before fba:  40
+33
+millisecs before fba:  37
+35
+millisecs before fba:  36
+34
+millisecs before fba:  39
+33
+millisecs before fba:  39
+34
+millisecs before fba:  35
+4
+millisecs before fba:  35
+34
+millisecs before fba:  38
+4
+millisecs before fba:  40
+33
+millisecs before fba:  39
+33
+millisecs before fba:  43
+4
+millisecs before fba:  45
+34
+millisecs before fba:  34
+33
+millisecs before fba:  47
+34
+millisecs before fba:  35
+4
+millisecs before fba:  40
+33
+millisecs before fba:  37
+35
+millisecs before fba:  36
+33
+millisecs before fba:  41
+4
+millisecs before fba:  36
+33
+millisecs before fba:  40
+4
+millisecs before fba:  43
+32
+millisecs before fba:  36
+33
+millisecs before fba:  43
+33
+millisecs before fba:  36
+34
+millisecs before fba:  46
+33
+millisecs before fba:  36
+33
+millisecs before fba:  45
+33
+millisecs before fba:  47
 5
-millisecs before fba:  61
-5
+millisecs before fba:  37
+34
+millisecs before fba:  42
+33
+millisecs before fba:  42
+33
+millisecs before fba:  40
+31
+millisecs before fba:  34
+33
+millisecs before fba:  47
+35
+millisecs before fba:  39
+34
+millisecs before fba:  38
+34
+millisecs before fba:  42
+33
+millisecs before fba:  41
+32
+millisecs before fba:  41
+33
+millisecs before fba:  38
+34
+millisecs before fba:  36
+32
+millisecs before fba:  41
+32
+millisecs before fba:  40
+33
+millisecs before fba:  40
+33
+millisecs before fba:  39
+33
+millisecs before fba:  35
+32
+millisecs before fba:  42
+35
+millisecs before fba:  39
+4
+millisecs before fba:  34
+33
+millisecs before fba:  41
+4
+millisecs before fba:  35
+33
+millisecs before fba:  39
+33
+millisecs before fba:  53
+33
+millisecs before fba:  43
+31
+millisecs before fba:  41
+22
+millisecs before fba:  3042
+44
+millisecs before fba:  32
+4
+millisecs before fba:  41
+35
+millisecs before fba:  34
+34
+millisecs before fba:  37
+4
 millisecs before fba:  38
 5
-millisecs before fba:  42
+millisecs before fba:  30
+34
+millisecs before fba:  39
+4
+millisecs before fba:  30
+23
+millisecs before fba:  208
+37
+millisecs before fba:  34
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  34
+3
+millisecs before fba:  32
+37
+millisecs before fba:  43
+35
+millisecs before fba:  35
+35
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  32
+35
+millisecs before fba:  34
+35
+millisecs before fba:  32
+35
+millisecs before fba:  32
+4
+millisecs before fba:  35
+4
+millisecs before fba:  34
+35
+millisecs before fba:  48
+35
+millisecs before fba:  33
+4
+millisecs before fba:  32
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+4
+millisecs before fba:  38
+4
+millisecs before fba:  37
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  33
+35
+millisecs before fba:  38
+35
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  34
+4
+millisecs before fba:  37
+36
+millisecs before fba:  33
+37
+millisecs before fba:  34
+37
+millisecs before fba:  33
+35
+millisecs before fba:  34
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  32
+4
+millisecs before fba:  40
+4
+millisecs before fba:  34
+36
+millisecs before fba:  32
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  37
+36
+millisecs before fba:  32
+4
+millisecs before fba:  36
+4
+millisecs before fba:  34
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  32
+36
+millisecs before fba:  34
+34
+millisecs before fba:  33
+35
+millisecs before fba:  35
+36
+millisecs before fba:  33
+4
+millisecs before fba:  35
+36
+millisecs before fba:  34
+4
+millisecs before fba:  34
+34
+millisecs before fba:  35
+35
+millisecs before fba:  33
+36
+millisecs before fba:  56
+4
+millisecs before fba:  39
+35
+millisecs before fba:  33
+35
+millisecs before fba:  30
+35
+millisecs before fba:  33
+36
+millisecs before fba:  32
+35
+millisecs before fba:  32
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+34
+millisecs before fba:  32
+38
+millisecs before fba:  33
+36
+millisecs before fba:  33
+38
+millisecs before fba:  35
+36
+millisecs before fba:  37
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  49
+35
+millisecs before fba:  35
+4
+millisecs before fba:  35
+36
+millisecs before fba:  35
+4
+millisecs before fba:  35
+36
+millisecs before fba:  32
+36
+millisecs before fba:  32
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  33
+4
+millisecs before fba:  37
+37
+millisecs before fba:  35
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+35
+millisecs before fba:  32
+35
+millisecs before fba:  36
+5
+millisecs before fba:  27
 6
-millisecs before fba:  51
+millisecs before fba:  37
+35
+millisecs before fba:  35
+5
+millisecs before fba:  28
 6
 millisecs before fba:  39
-5
-millisecs before fba:  73
-5
-millisecs before fba:  51
-5
-millisecs before fba:  44
-5
-millisecs before fba:  51
-41
-millisecs before fba:  219
+8
+millisecs before fba:  37
 40
-millisecs before fba:  197
-40
-millisecs before fba:  99
+millisecs before fba:  32
 39
-millisecs before fba:  64
-42
-millisecs before fba:  126
-41
-millisecs before fba:  119
-41
-millisecs before fba:  71
-40
-millisecs before fba:  119
-41
-millisecs before fba:  156
-43
 millisecs before fba:  35
+4
+millisecs before fba:  34
+36
+millisecs before fba:  33
 40
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  35
+38
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+4
+millisecs before fba:  40
+4
+millisecs before fba:  34
+35
+millisecs before fba:  35
+36
+millisecs before fba:  47
+4
+millisecs before fba:  41
+36
+millisecs before fba:  28
+37
+millisecs before fba:  33
+36
+millisecs before fba:  41
+37
+millisecs before fba:  33
+35
+millisecs before fba:  30
+4
+millisecs before fba:  34
+36
+millisecs before fba:  34
+37
+millisecs before fba:  35
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  35
+4
+millisecs before fba:  35
+4
+millisecs before fba:  33
+25
+millisecs before fba:  239
+36
+millisecs before fba:  33
+4
+millisecs before fba:  36
+37
+millisecs before fba:  34
+35
+millisecs before fba:  35
+33
+millisecs before fba:  34
+34
+millisecs before fba:  35
+34
+millisecs before fba:  34
+37
+millisecs before fba:  33
+8
+millisecs before fba:  39
+36
+millisecs before fba:  36
+5
+millisecs before fba:  36
+40
+millisecs before fba:  137
+35
+millisecs before fba:  45
+24
+millisecs before fba:  197
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+35
+millisecs before fba:  34
+4
+millisecs before fba:  35
+5
+millisecs before fba:  37
+35
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+37
+millisecs before fba:  33
+39
+millisecs before fba:  34
+4
+millisecs before fba:  40
+40
+millisecs before fba:  34
+35
+millisecs before fba:  33
+36
+millisecs before fba:  36
+4
+millisecs before fba:  68
+36
+millisecs before fba:  34
+37
+millisecs before fba:  34
+38
+millisecs before fba:  33
+36
+millisecs before fba:  34
+4
+millisecs before fba:  36
+4
+millisecs before fba:  36
+36
+millisecs before fba:  32
+36
+millisecs before fba:  36
+37
+millisecs before fba:  35
+36
+millisecs before fba:  36
+5
+millisecs before fba:  29
+22
+millisecs before fba:  227
+5
+millisecs before fba:  41
+38
+millisecs before fba:  34
+36
+millisecs before fba:  29
+5
+millisecs before fba:  34
+37
+millisecs before fba:  33
+36
+millisecs before fba:  32
+39
+millisecs before fba:  34
+36
+millisecs before fba:  32
+37
+millisecs before fba:  32
+35
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+35
+millisecs before fba:  33
+4
+millisecs before fba:  34
+6
+millisecs before fba:  37
+36
+millisecs before fba:  34
+4
+millisecs before fba:  38
+36
+millisecs before fba:  34
+4
+millisecs before fba:  34
+5
+millisecs before fba:  38
+36
+millisecs before fba:  34
+35
+millisecs before fba:  34
+34
+millisecs before fba:  34
+5
+millisecs before fba:  28
+35
+millisecs before fba:  35
+37
+millisecs before fba:  35
+36
+millisecs before fba:  33
+4
+millisecs before fba:  35
+37
+millisecs before fba:  35
+37
+millisecs before fba:  35
+5
+millisecs before fba:  35
+4
+millisecs before fba:  36
+5
+millisecs before fba:  35
+36
+millisecs before fba:  33
+5
+millisecs before fba:  43
+37
+millisecs before fba:  35
+4
+millisecs before fba:  37
+38
+millisecs before fba:  34
+35
+millisecs before fba:  34
+5
+millisecs before fba:  29
+37
+millisecs before fba:  35
+36
+millisecs before fba:  35
+35
+millisecs before fba:  34
+36
+millisecs before fba:  33
+39
+millisecs before fba:  35
+35
+millisecs before fba:  33
+36
+millisecs before fba:  28
+4
+millisecs before fba:  29
+5
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  34
+37
+millisecs before fba:  62
+4
+millisecs before fba:  37
+4
+millisecs before fba:  35
+37
+millisecs before fba:  33
+36
+millisecs before fba:  34
+4
+millisecs before fba:  37
+6
+millisecs before fba:  37
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+35
+millisecs before fba:  34
+35
+millisecs before fba:  34
+37
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+37
+millisecs before fba:  33
+37
+millisecs before fba:  35
+36
+millisecs before fba:  34
+36
+millisecs before fba:  28
+33
+millisecs before fba:  42
+35
+millisecs before fba:  33
+35
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+37
+millisecs before fba:  34
+36
+millisecs before fba:  35
+36
+millisecs before fba:  34
+37
+millisecs before fba:  32
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+4
+millisecs before fba:  39
+35
+millisecs before fba:  35
+38
+millisecs before fba:  35
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+41
+millisecs before fba:  35
+35
+millisecs before fba:  34
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  38
+36
+millisecs before fba:  33
+4
+millisecs before fba:  36
+35
+millisecs before fba:  34
+35
+millisecs before fba:  28
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+4
+millisecs before fba:  44
+35
+millisecs before fba:  33
+6
+millisecs before fba:  39
+4
+millisecs before fba:  32
+36
+millisecs before fba:  34
+4
+millisecs before fba:  36
+35
+millisecs before fba:  33
+37
+millisecs before fba:  35
+36
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  35
+34
+millisecs before fba:  36
+5
+millisecs before fba:  30
+5
+millisecs before fba:  29
+4
+millisecs before fba:  28
+36
+millisecs before fba:  34
+36
+millisecs before fba:  36
+36
+millisecs before fba:  34
+38
+millisecs before fba:  55
+4
+millisecs before fba:  35
+5
+millisecs before fba:  28
+37
+millisecs before fba:  33
+38
+millisecs before fba:  33
+36
+millisecs before fba:  36
+4
+millisecs before fba:  31
+37
+millisecs before fba:  33
+36
+millisecs before fba:  35
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  32
+9
+millisecs before fba:  37
+40
+millisecs before fba:  33
+36
+millisecs before fba:  33
+37
+millisecs before fba:  33
+37
+millisecs before fba:  34
+4
+millisecs before fba:  38
+37
+millisecs before fba:  28
+5
+millisecs before fba:  30
+34
+millisecs before fba:  33
+35
+millisecs before fba:  29
+5
+millisecs before fba:  34
+7
+millisecs before fba:  27
+35
+millisecs before fba:  35
+36
+millisecs before fba:  33
+4
+millisecs before fba:  37
+37
+millisecs before fba:  33
+4
+millisecs before fba:  36
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  35
+4
+millisecs before fba:  27
+36
+millisecs before fba:  34
+37
+millisecs before fba:  34
+37
+millisecs before fba:  35
+38
+millisecs before fba:  34
+4
+millisecs before fba:  35
+38
+millisecs before fba:  33
+4
+millisecs before fba:  41
+5
+millisecs before fba:  29
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+4
+millisecs before fba:  35
+36
+millisecs before fba:  32
+38
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  34
+35
+millisecs before fba:  33
+36
+millisecs before fba:  35
+37
+millisecs before fba:  34
+4
+millisecs before fba:  37
+35
+millisecs before fba:  57
+36
+millisecs before fba:  35
+4
+millisecs before fba:  29
+37
+millisecs before fba:  33
+37
+millisecs before fba:  33
+35
+millisecs before fba:  35
+4
+millisecs before fba:  28
+4
+millisecs before fba:  28
+36
+millisecs before fba:  35
+35
+millisecs before fba:  34
+36
+millisecs before fba:  30
+35
+millisecs before fba:  46
+37
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  32
+37
+millisecs before fba:  34
+36
+millisecs before fba:  33
+35
+millisecs before fba:  29
+4
+millisecs before fba:  32
+4
+millisecs before fba:  37
+39
+millisecs before fba:  32
+4
+millisecs before fba:  35
+4
+millisecs before fba:  35
+37
+millisecs before fba:  34
+4
+millisecs before fba:  34
+37
+millisecs before fba:  34
+4
+millisecs before fba:  33
+4
+millisecs before fba:  33
+4
+millisecs before fba:  33
+36
+millisecs before fba:  32
+37
+millisecs before fba:  77
+37
+millisecs before fba:  32
+4
+millisecs before fba:  40
+37
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  36
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+35
+millisecs before fba:  34
+37
+millisecs before fba:  36
+37
+millisecs before fba:  33
+36
+millisecs before fba:  47
+36
+millisecs before fba:  32
+5
+millisecs before fba:  37
+6
+millisecs before fba:  30
+5
+millisecs before fba:  27
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  32
+37
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  32
+5
+millisecs before fba:  33
+4
+millisecs before fba:  34
+36
+millisecs before fba:  34
+35
+millisecs before fba:  32
+35
+millisecs before fba:  38
+35
+millisecs before fba:  32
+38
+millisecs before fba:  33
+36
+millisecs before fba:  34
+4
+millisecs before fba:  35
+5
+millisecs before fba:  33
+35
+millisecs before fba:  34
+5
+millisecs before fba:  29
+36
+millisecs before fba:  34
+35
+millisecs before fba:  32
+35
+millisecs before fba:  34
+35
+millisecs before fba:  34
+4
+millisecs before fba:  34
+5
+millisecs before fba:  34
+5
+millisecs before fba:  34
+36
+millisecs before fba:  34
+35
+millisecs before fba:  33
+4
+millisecs before fba:  33
+5
+millisecs before fba:  34
+34
+millisecs before fba:  33
+35
+millisecs before fba:  33
+37
+millisecs before fba:  33
+4
+millisecs before fba:  37
+37
+millisecs before fba:  33
+37
+millisecs before fba:  33
+36
+millisecs before fba:  32
+36
+millisecs before fba:  32
+35
+millisecs before fba:  33
+36
+millisecs before fba:  32
+36
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  47
+36
+millisecs before fba:  33
+36
+millisecs before fba:  30
+4
+millisecs before fba:  34
+36
+millisecs before fba:  37
+4
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  33
+35
+millisecs before fba:  35
+35
+millisecs before fba:  34
+37
+millisecs before fba:  34
+4
+millisecs before fba:  37
+34
+millisecs before fba:  36
+37
+millisecs before fba:  33
+36
+millisecs before fba:  33
+37
+millisecs before fba:  106
+38
+millisecs before fba:  34
+35
+millisecs before fba:  33
+7
+millisecs before fba:  36
+37
+millisecs before fba:  35
+35
+millisecs before fba:  31
+4
+millisecs before fba:  38
+36
+millisecs before fba:  32
+36
+millisecs before fba:  34
+4
+millisecs before fba:  38
+35
+millisecs before fba:  33
+35
+millisecs before fba:  32
+36
+millisecs before fba:  38
+35
+millisecs before fba:  32
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  37
+37
+millisecs before fba:  33
+35
+millisecs before fba:  36
+38
+millisecs before fba:  33
+37
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  32
+36
+millisecs before fba:  35
+4
+millisecs before fba:  38
+38
+millisecs before fba:  34
+36
+millisecs before fba:  32
+36
+millisecs before fba:  32
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  34
+4
+millisecs before fba:  36
+37
+millisecs before fba:  32
+35
+millisecs before fba:  34
+4
+millisecs before fba:  29
+35
+millisecs before fba:  33
+36
+millisecs before fba:  992
+5
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  34
+36
+millisecs before fba:  36
+36
+millisecs before fba:  34
+36
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+4
+millisecs before fba:  34
+4
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  35
+37
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  37
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  34
+38
+millisecs before fba:  31
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  37
+35
+millisecs before fba:  34
+38
+millisecs before fba:  33
+36
+millisecs before fba:  32
+37
+millisecs before fba:  33
+36
+millisecs before fba:  32
+37
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  35
+36
+millisecs before fba:  35
+4
+millisecs before fba:  33
+37
+millisecs before fba:  33
+35
+millisecs before fba:  32
+36
+millisecs before fba:  32
+36
+millisecs before fba:  35
+6
+millisecs before fba:  40
+40
+millisecs before fba:  111
+36
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  30
+5
+millisecs before fba:  30
+5
+millisecs before fba:  33
+38
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  39
+36
+millisecs before fba:  33
+4
+millisecs before fba:  34
+4
+millisecs before fba:  37
+36
+millisecs before fba:  33
+37
+millisecs before fba:  33
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+37
+millisecs before fba:  34
+35
+millisecs before fba:  36
+36
+millisecs before fba:  34
+37
+millisecs before fba:  33
+4
+millisecs before fba:  35
+36
+millisecs before fba:  32
+36
+millisecs before fba:  32
+4
+millisecs before fba:  34
+37
+millisecs before fba:  33
+36
+millisecs before fba:  32
+37
+millisecs before fba:  33
+5
+millisecs before fba:  33
+34
+millisecs before fba:  34
+4
+millisecs before fba:  32
+36
+millisecs before fba:  36
+37
+millisecs before fba:  39
+36
+millisecs before fba:  34
+36
+millisecs before fba:  36
+35
+millisecs before fba:  35
+38
+millisecs before fba:  33
+34
+millisecs before fba:  33
+36
+millisecs before fba:  34
+36
+millisecs before fba:  35
+35
+millisecs before fba:  35
+5
+millisecs before fba:  30
+36
+millisecs before fba:  33
+4
+millisecs before fba:  35
+36
+millisecs before fba:  29
+36
+millisecs before fba:  32
+4
+millisecs before fba:  34
+37
+millisecs before fba:  34
+4
+millisecs before fba:  33
+4
+millisecs before fba:  38
+4
+millisecs before fba:  37
+4
+millisecs before fba:  33
+38
+millisecs before fba:  33
+36
+millisecs before fba:  34
+4
+millisecs before fba:  32
+4
+millisecs before fba:  36
+37
+millisecs before fba:  35
+36
+millisecs before fba:  33
+37
+millisecs before fba:  33
+37
+millisecs before fba:  35
+36
+millisecs before fba:  33
+4
+millisecs before fba:  34
+35
+millisecs before fba:  34
+4
+millisecs before fba:  33
+36
+millisecs before fba:  36
+36
+millisecs before fba:  38
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  29
+37
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  33
+4
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+39
+millisecs before fba:  33
+4
+millisecs before fba:  34
+36
+millisecs before fba:  34
+4
+millisecs before fba:  33
+4
+millisecs before fba:  42
+39
+millisecs before fba:  98
+37
+millisecs before fba:  33
+36
+millisecs before fba:  32
+5
+millisecs before fba:  36
+24
+millisecs before fba:  949
+45
+millisecs before fba:  30
+36
+millisecs before fba:  33
+36
+millisecs before fba:  32
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  32
+35
+millisecs before fba:  31
+36
+millisecs before fba:  33
+4
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  37
+36
+millisecs before fba:  34
+4
+millisecs before fba:  33
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  35
+4
+millisecs before fba:  35
+4
+millisecs before fba:  34
+4
+millisecs before fba:  34
+34
+millisecs before fba:  36
+4
+millisecs before fba:  34
+36
+millisecs before fba:  48
+4
+millisecs before fba:  35
+4
+millisecs before fba:  44
+36
+millisecs before fba:  34
+35
+millisecs before fba:  33
+4
+millisecs before fba:  33
+32
+millisecs before fba:  192
+40
+millisecs before fba:  37
+3
+millisecs before fba:  32
+36
+millisecs before fba:  34
+38
+millisecs before fba:  34
+4
+millisecs before fba:  36
+37
+millisecs before fba:  33
+35
+millisecs before fba:  34
+4
+millisecs before fba:  39
+4
+millisecs before fba:  40
+4
+millisecs before fba:  36
+35
+millisecs before fba:  35
+36
+millisecs before fba:  34
+37
+millisecs before fba:  35
+36
+millisecs before fba:  37
+39
+millisecs before fba:  37
+37
+millisecs before fba:  33
+34
+millisecs before fba:  34
+36
+millisecs before fba:  36
+36
+millisecs before fba:  34
+4
+millisecs before fba:  38
+39
+millisecs before fba:  35
+37
+millisecs before fba:  34
+35
+millisecs before fba:  34
+36
+millisecs before fba:  34
+35
+millisecs before fba:  35
+37
+millisecs before fba:  35
+4
+millisecs before fba:  35
+38
+millisecs before fba:  33
+5
+millisecs before fba:  30
+36
+millisecs before fba:  35
+5
+millisecs before fba:  38
+38
+millisecs before fba:  34
+36
+millisecs before fba:  33
+39
+millisecs before fba:  34
+35
+millisecs before fba:  36
+36
+millisecs before fba:  35
+36
+millisecs before fba:  42
+36
+millisecs before fba:  33
+4
+millisecs before fba:  49
+36
+millisecs before fba:  29
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  36
+34
+millisecs before fba:  34
+4
+millisecs before fba:  37
+37
+millisecs before fba:  47
+5
+millisecs before fba:  271
+36
+millisecs before fba:  35
+35
+millisecs before fba:  32
+37
+millisecs before fba:  34
+36
+millisecs before fba:  35
+36
+millisecs before fba:  35
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+38
+millisecs before fba:  155
+37
+millisecs before fba:  34
+36
+millisecs before fba:  34
+40
+millisecs before fba:  40
+35
+millisecs before fba:  33
+6
+millisecs before fba:  37
+36
+millisecs before fba:  35
+5
+millisecs before fba:  37
+37
+millisecs before fba:  33
+35
+millisecs before fba:  34
+37
+millisecs before fba:  39
+38
+millisecs before fba:  34
+36
+millisecs before fba:  34
+35
+millisecs before fba:  34
+36
+millisecs before fba:  33
+37
+millisecs before fba:  33
+36
+millisecs before fba:  35
+35
+millisecs before fba:  34
+36
+millisecs before fba:  33
+37
+millisecs before fba:  36
+34
+millisecs before fba:  34
+36
+millisecs before fba:  33
+5
+millisecs before fba:  34
+4
+millisecs before fba:  38
+38
+millisecs before fba:  34
+4
+millisecs before fba:  36
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+37
+millisecs before fba:  33
+4
+millisecs before fba:  38
+35
+millisecs before fba:  34
+4
+millisecs before fba:  34
+36
+millisecs before fba:  35
+4
+millisecs before fba:  53
+35
+millisecs before fba:  37
+37
+millisecs before fba:  34
+36
+millisecs before fba:  40
+35
+millisecs before fba:  34
+37
+millisecs before fba:  33
+36
+millisecs before fba:  36
+37
+millisecs before fba:  33
+38
+millisecs before fba:  33
+4
+millisecs before fba:  34
+37
+millisecs before fba:  34
+4
+millisecs before fba:  39
+37
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  35
+4
+millisecs before fba:  29
+37
+millisecs before fba:  36
+4
+millisecs before fba:  28
+35
+millisecs before fba:  33
+36
+millisecs before fba:  36
+37
+millisecs before fba:  36
+4
+millisecs before fba:  36
+37
+millisecs before fba:  33
+37
+millisecs before fba:  34
+36
+millisecs before fba:  37
+5
+millisecs before fba:  40
+7
+millisecs before fba:  36
+4
+millisecs before fba:  34
+4
+millisecs before fba:  35
+37
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  32
+38
+millisecs before fba:  35
+36
+millisecs before fba:  35
+36
+millisecs before fba:  34
+37
+millisecs before fba:  110
+36
+millisecs before fba:  33
+7
+millisecs before fba:  38
+21
+millisecs before fba:  246
+37
+millisecs before fba:  35
+36
+millisecs before fba:  34
+36
+millisecs before fba:  34
+38
+millisecs before fba:  34
+36
+millisecs before fba:  33
+4
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  35
+35
+millisecs before fba:  35
+36
+millisecs before fba:  34
+4
+millisecs before fba:  33
+36
+millisecs before fba:  33
+38
+millisecs before fba:  32
+36
+millisecs before fba:  32
+37
+millisecs before fba:  33
+4
+millisecs before fba:  34
+7
+millisecs before fba:  37
+37
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  35
+4
+millisecs before fba:  35
+36
+millisecs before fba:  34
+35
+millisecs before fba:  33
+36
+millisecs before fba:  32
+36
+millisecs before fba:  33
+36
+millisecs before fba:  32
+4
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  35
+36
+millisecs before fba:  33
+33
+millisecs before fba:  35
+5
+millisecs before fba:  36
+35
+millisecs before fba:  35
+35
+millisecs before fba:  34
+35
+millisecs before fba:  35
+34
+millisecs before fba:  35
+35
+millisecs before fba:  48
+37
+millisecs before fba:  33
+35
+millisecs before fba:  33
+35
+millisecs before fba:  31
+35
+millisecs before fba:  32
+36
+millisecs before fba:  42
+38
+millisecs before fba:  34
+35
+millisecs before fba:  33
+4
+millisecs before fba:  34
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+35
+millisecs before fba:  34
+36
+millisecs before fba:  32
+4
+millisecs before fba:  34
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+35
+millisecs before fba:  32
+35
+millisecs before fba:  32
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+4
+millisecs before fba:  34
+4
+millisecs before fba:  36
+36
+millisecs before fba:  33
+36
+millisecs before fba:  35
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+35
+millisecs before fba:  32
+35
+millisecs before fba:  31
+4
+millisecs before fba:  35
+36
+millisecs before fba:  35
+38
+millisecs before fba:  30
+37
+millisecs before fba:  32
+35
+millisecs before fba:  35
+39
+millisecs before fba:  121
+37
+millisecs before fba:  35
+4
+millisecs before fba:  37
+5
+millisecs before fba:  30
+37
+millisecs before fba:  33
+36
+millisecs before fba:  34
+37
+millisecs before fba:  32
+4
+millisecs before fba:  38
+6
+millisecs before fba:  40
+37
+millisecs before fba:  34
+4
+millisecs before fba:  33
+8
+millisecs before fba:  35
+5
+millisecs before fba:  30
+36
+millisecs before fba:  33
+5
+millisecs before fba:  36
+4
+millisecs before fba:  38
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  32
+3
+millisecs before fba:  36
+5
+millisecs before fba:  28
+37
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  34
+35
+millisecs before fba:  32
+36
+millisecs before fba:  34
+35
+millisecs before fba:  32
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+4
+millisecs before fba:  34
+4
+millisecs before fba:  34
+37
+millisecs before fba:  34
+5
+millisecs before fba:  34
+35
+millisecs before fba:  33
+36
+millisecs before fba:  33
+35
+millisecs before fba:  30
+36
+millisecs before fba:  35
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  34
+36
+millisecs before fba:  61
+34
+millisecs before fba:  32
+37
+millisecs before fba:  34
+38
+millisecs before fba:  33
+4
+millisecs before fba:  36
+4
+millisecs before fba:  38
+36
+millisecs before fba:  33
+35
+millisecs before fba:  33
+4
+millisecs before fba:  36
+38
+millisecs before fba:  35
+4
+millisecs before fba:  45
+4
+millisecs before fba:  36
+4
+millisecs before fba:  38
+35
+millisecs before fba:  34
+35
+millisecs before fba:  34
+4
+millisecs before fba:  34
+6
+millisecs before fba:  37
+6
+millisecs before fba:  37
+37
+millisecs before fba:  34
+36
+millisecs before fba:  32
+37
+millisecs before fba:  35
+36
+millisecs before fba:  35
+4
+millisecs before fba:  37
+4
+millisecs before fba:  34
+4
+millisecs before fba:  37
+36
+millisecs before fba:  34
+34
+millisecs before fba:  35
+35
+millisecs before fba:  33
+35
+millisecs before fba:  33
+4
+millisecs before fba:  40
+35
+millisecs before fba:  35
+36
+millisecs before fba:  33
+36
+millisecs before fba:  36
+36
+millisecs before fba:  35
+36
+millisecs before fba:  32
+36
+millisecs before fba:  33
+36
+millisecs before fba:  33
+34
+millisecs before fba:  34
+4
+millisecs before fba:  33
+36
+millisecs before fba:  33
+4
+millisecs before fba:  40
+37
+millisecs before fba:  46
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  32
+37
+millisecs before fba:  34
+4
+millisecs before fba:  37
+34
+millisecs before fba:  33
+36
+millisecs before fba:  33
+36
+millisecs before fba:  35
+5
+millisecs before fba:  45
+37
+millisecs before fba:  33
+4
+millisecs before fba:  54
+36
+millisecs before fba:  33
+35
+millisecs before fba:  35
+35
+millisecs before fba:  32
+35
+millisecs before fba:  33
+36
+millisecs before fba:  34
+35
+millisecs before fba:  33
+4
+millisecs before fba:  38
+37
+millisecs before fba:  34
+35
+millisecs before fba:  27
+36
+millisecs before fba:  34
+36
+millisecs before fba:  33
+36
+millisecs before fba:  32
+35
+millisecs before fba:  34
+35
+millisecs before fba:  33
+4
+millisecs before fba:  35
+36
+millisecs before fba:  32
+33
+millisecs before fba:  33
+36
+millisecs before fba:  32
+36
+millisecs before fba:  33
+37
+millisecs before fba:  33
+35
+millisecs before fba:  33
+36
+millisecs before fba:  36
+35
+millisecs before fba:  36
+37
+millisecs before fba:  35
+38
+millisecs before fba:  32
+4
+millisecs before fba:  34
+5
+millisecs before fba:  35
+36
+millisecs before fba:  32
+4
+millisecs before fba:  34
+41
+millisecs before fba:  35
+35
+millisecs before fba:  32
+4
+millisecs before fba:  34
+36
+millisecs before fba:  33
+37
+millisecs before fba:  37
+6
+millisecs before fba:  33
+3524
+millisecs before fba:  56
+37
+millisecs before fba:  37
+5
+millisecs before fba:  43
+38
+millisecs before fba:  35
+38
+millisecs before fba:  36
+38
+millisecs before fba:  38
+40
+millisecs before fba:  37
+41
+millisecs before fba:  36
+39
+millisecs before fba:  33
+40
+millisecs before fba:  90
+38
+millisecs before fba:  36
+38
+millisecs before fba:  36
+39
+millisecs before fba:  35
+38
+millisecs before fba:  57
+38
+millisecs before fba:  55
+38
+millisecs before fba:  35
+5
+millisecs before fba:  39
+41
+millisecs before fba:  35
+39
+millisecs before fba:  42
+40
+millisecs before fba:  41
+38
+millisecs before fba:  50
+36

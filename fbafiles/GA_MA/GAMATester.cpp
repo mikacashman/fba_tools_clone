@@ -56,15 +56,35 @@ int main ( int argc, char **argv) {
 	//=================================================================
         //============== Change Range of Values here ======================
         //=================================================================
-	int cpd9[11] = {0,1,2,3,4,5,6,7,8,9,10};
-        int cpd29[11] = {0,1,2,3,4,5,6,7,8,9,10};
-        int cpd84[11] = {0,1,2,3,4,5,6,7,8,9,10};
-        int cpd11[11] = {0,1,2,3,4,5,6,7,8,9,10};
+        string MATests[23]={
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:1;cpd00084_c0[c]:-100:10;cpd00011_c0[c]:-100:10;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:0;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:1;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:2;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:3;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:4;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:5;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:6;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:7;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:8;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:9;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:0;cpd00011_c0[c]:-100:10;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:0;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:1;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:2;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:3;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:4;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:5;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:6;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:7;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:8;",
+		"cpd00009_c0rc]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:9;",
+		"cpd00009_c0[c]:-100:1;cpd00029_c0[c]:-100:2;cpd00084_c0[c]:-100:1;cpd00011_c0[c]:-100:10;"};
 	
-	int c9;
-	int c29;
-	int c84;
-	int c11;
+	int cpd9[23] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+	int cpd29[23]={1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2};
+	int cpd84[23]={10,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1};
+	int cpd11[23]={10,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10};
 	//create varaibles
 	string replacement;
 	string replace_call;		
@@ -72,7 +92,7 @@ int main ( int argc, char **argv) {
     	clock_t clockTicksTaken;
 	string ID;
 	float run_time;
-	int NUM_TESTS = 2000;
+	int NUM_TESTS = 23;
 	int count=0;
 	string test[4];
 	for (int t=0; t<NUM_TESTS; t++)
@@ -80,23 +100,17 @@ int main ( int argc, char **argv) {
 		count++;
 		cout << "Run: " << count << endl;
         auto startTime =std::chrono::high_resolution_clock::now();
-		
-		c9=cpd9[rand()%11];
-                c29=cpd29[rand()%11];
-                c84=cpd84[rand()%11];
-                c11=cpd11[rand()%11];
-
 		//startTime=clock();
-		replacement = "cpd00009_c0[c]:-100:" + to_string(c9) + 
-                                ";cpd00029_c0[c]:-100:" + to_string(c29) + 
-                                ";cpd00084_c0[c]:-100:" + to_string(c84) + 
-                                ";cpd00011_c0[c]:-100:" + to_string(c11) + ";";
-                //cout << replacement << endl;
-                replace_call = "sed -i 's/exchange species|.*|Specialized parameters/exchange species|" + replacement + 
-                                "cpd11416_c0[c]:-10000:0|Specialized parameters/g' '/kb/module/work/fbafiles/GA_MA/SpecializedParameters.txt'";
+		//Set the params
+		replacement = MATests[t];	
+		
+		//Alter the files
+		//cout << replacement << endl;
+		replace_call = "sed -i 's/exchange species|.*|Specialized parameters/exchange species|" + replacement + "cpd11416_c0[c]:-10000:0|Specialized parameters/g' '/kb/module/work/fbafiles/GA_MA/SpecializedParameters.txt'";
+
 		system(replace_call.c_str());
 		//replacement = cpd9[t].str() + "|" + cpd11[t].str() + "|" + cpd29[t].str() + "|" + cpd84[t].str();
-		replacement = to_string(c9) + "|" + to_string(c11) + "|" + to_string(c29) + "|" + to_string(c84);
+		replacement = to_string(cpd9[t]) + "|" + to_string(cpd11[t]) + "|" + to_string(cpd29[t]) + "|" + to_string(cpd84[t]);
 		
 		replace_call = "sed -i 's/" + R1 + "/" + R2 + replacement + R3 + "/g' '/kb/module/work/fbafiles/GA_MA/media.tbl'";
 		//cout << endl << endl << replace_call << endl << endl;
