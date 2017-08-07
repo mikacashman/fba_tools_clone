@@ -1,3 +1,0 @@
-limits/time = 3600
-limits/memory = 1000
-numerics/feastol = 0.000000001

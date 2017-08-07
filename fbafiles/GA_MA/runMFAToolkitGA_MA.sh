@@ -1,1 +1,0 @@
-/kb/deployment/bin/mfatoolkit resetparameter "MFA input directory" "/kb/module/work/fbafiles/GA_MA/ReactionDB/" parameterfile "/kb/module/work/fbafiles/GA_MA/SpecializedParameters.txt" LoadCentralSystem "/kb/module/work/fbafiles/GA_MA/Model.tbl" > "/kb/module/work/fbafiles/GA_MA/log.txt"
